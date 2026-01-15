@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/index.css">
+    <link rel="stylesheet" href="Css/commun.css">
+    <script src="JS/voirPlus.js" defer></script>
+    <script src="JS/caroussel.js" defer></script>
+    <title>Index</title>
+</head>
+<body>
+    <header>
+        <h1>Projet Golem</h1>
+        <nav>
+            <a href="./index.html" class="navActive"><p>Notre Accueil</p></a>
+            <a href="./Html/equipe.html" class="navInactive"><p>Notre Equipe</p></a>
+            <a href="./Html/projet.html" class="navInactive"><p>Notre Projet</p></a>
+        </nav>
+    </header>
+
+    <main>
+        <div>
+            <h2 id="title">Frise Chronologique du projet</h2>
+
+            <div id="friseContainer">
+                <div id="friseChronologique">
+                    <div class="friseItem friseBloc1">
+                        <div class="friseBloc"></div>
+                        <div class="friseContent">
+                            <h3>29/11/2025</h3>
+                            <p>Lancement du projet</p>
+
+                            <button onclick="VoirPlus(this, 'event1', '#464655')" class="btnVoirPlus"> Voir plus </button>
+                        </div>
+                    </div>
+
+                    <div class="friseItem friseBloc2">
+                        <div class="friseBloc"></div>
+                        <div class="friseContent">
+                            <h3>19/11/2025</h3>
+                            <p>Début du développement</p>
+
+                            <button onclick="VoirPlus(this, 'event2', '#688B58')" class="btnVoirPlus"> Voir plus </button>
+                        </div>
+                    </div>
+
+                    <div class="friseItem friseBloc3">
+                        <div class="friseBloc"></div>
+                        <div class="friseContent">
+                            <h3>10/12/2025</h3>
+                            <p>Avancé du développement</p>
+
+                            <button onclick="VoirPlus(this, 'event3', '#464655')" class="btnVoirPlus"> Voir plus </button>
+                        </div>
+                    </div>
+
+                    <div class="friseItem friseBloc4">
+                        <div class="friseBloc"></div>
+                        <div class="friseContent">
+                            <h3>14/01/2026</h3>
+                            <p>Retravail carte et mécaniques</p>
+                            <button onclick="VoirPlus(this, 'event4', '#688B58')" class="btnVoirPlus"> Voir plus </button>
+                        </div>
+                    </div>
+
+                    <div class="friseItem friseBloc5">
+                        <div class="friseBloc"></div>
+                        <div class="friseContent">
+                            <h3>15/01/2026</h3>
+                            <p>Dernière version du personnage</p>
+                            <button onclick="VoirPlus(this, 'event5', '#464655')" class="btnVoirPlus"> Voir plus </button>
+                        </div>
+                    </div>
+
+                    <div class="friseItem friseBloc6">
+                        <div class="friseBloc"></div>
+                        <div class="friseContent">
+                            <h3>xx/xx/xxxx</h3>
+                            <p>Description de l'événement 6.</p>
+                            <button onclick="VoirPlus(this, 'event6', '#688B58')" class="btnVoirPlus"> Voir plus </button>
+                        </div>
+                    </div>
+
+                    <div class="friseItem friseBloc7">
+                        <div class="friseBloc"></div>
+                        <div class="friseContent">
+                            <h3>xx/xx/xxxx</h3>
+                            <p>Description de l'événement 7.</p>
+                            <button onclick="VoirPlus(this, 'event7', '#464655')" class="btnVoirPlus"> Voir plus </button>
+                        </div>
+                    </div>
+
+                    <div class="friseItem friseBloc8">
+                        <div class="friseBloc"></div>
+                        <div class="friseContent">
+                            <h3>xx/xx/xxxx</h3>
+                            <p>Description de l'événement 8.</p>
+                            <button onclick="VoirPlus(this, 'event8', '#688B58')" class="btnVoirPlus"> Voir plus </button>
+                        </div>
+                    </div>
+
+                    <div class="friseItem friseBloc9">
+                        <div class="friseBloc"></div>
+                        <div class="friseContent">
+                            <h3>xx/xx/xxxx</h3>
+                            <p>Description de l'événement 9.</p>
+                            <button onclick="VoirPlus(this, 'event9', '#464655')" class="btnVoirPlus"> Voir plus </button>
+                        </div>
+                    </div>
+
+                    <div class="friseItem friseBloc10">
+                        <div class="friseBloc"></div>
+                        <div class="friseContent">
+                            <h3>xx/xx/xxxx</h3>
+                            <p>Description de l'événement 10.</p>
+                            <button onclick="VoirPlus(this, 'event10', '#688B58')" class="btnVoirPlus"> Voir plus </button>
+                        </div>
+                    </div>
+
+                    <div class="friseItem friseBloc11">
+                        <div class="friseBloc"></div>
+                        <div class="friseContent">
+                            <h3>xx/xx/xxxx</h3>
+                            <p>Description de l'événement 11.</p>
+                            <button onclick="VoirPlus(this, 'event11', '#464655')" class="btnVoirPlus"> Voir plus </button>
+                        </div>
+                        <span class="arrowBase"></span>
+                        <span class="arrow"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="PlusInfos">
+            <h2>Informations Supplémentaires</h2>
+            <hr>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam officia in dolorem, deleniti magnam esse praesentium laudantium repellat provident hic. Ut ducimus, quo doloremque quaerat sunt debitis doloribus dolorum repellendus.</p>
+            <div id="imagesContainer">
+                <button class="prev">‹</button>
+                <div id="carrouselViewport">
+                    <div id="carrousel">
+                        <!-- Images de base  -->
+                        <img src="images/image1.jpg" class="ImageVoirPlus" alt="Image 1">
+                        <img src="images/image2.jpg" class="ImageVoirPlus" alt="Image 2">
+                        <img src="images/image3.jpg" class="ImageVoirPlus" alt="Image 3">
+                        <img src="images/image4.jpg" class="ImageVoirPlus" alt="Image 4">
+                    </div>
+                </div>
+                <button class="next">›</button>
+            </div>
+            <button onclick="closeInfos()" id="closeButton">Fermer</button>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2026 Pierre</p>
+    </footer>
+</body>
+</html>

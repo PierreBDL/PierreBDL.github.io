@@ -1,0 +1,179 @@
+{
+  "events": [
+    {
+      "id": "event1",
+      "date": "29/10/25",
+      "title": "Séance du 29/10/25 - Lancement du projet",
+      "tasks": [
+        { "text": "Création du dépôt GitHub", "status": "termine" },
+        { "text": "Mise en place du projet Unity", "status": "termine" },
+        { "text": "Mise en place du lore du jeu et des premières idées", "status": "termine" },
+        { "text": "Création du Trello du projet", "status": "termine" },
+        { "text": "Recrutement des derniers membres de l'équipe", "status": "termine" },
+        { "text": "Première ébauche du planning", "status": "termine" }
+      ],
+      "images": [
+        "/291025/Image1.png",
+        "/291025/Image2.png",
+        "/291025/Image3.png",
+        "/291025/Image4.png"
+      ]
+    },
+
+    {
+      "id": "event2",
+      "date": "19/11/25",
+      "title": "Séance du 19/11/25 - Première maquette du jeu",
+      "tasks": [
+        { "text": "Création des déplacements de base", "status": "termine" },
+        { "text": "Premiers concepts d'environnement et de personnages", "status": "termine" },
+        { "text": "Rétroplannings des équipes et délégation des leads développeur et créatif", "status": "termine" }
+      ],
+      "images": [
+        "/191125/Image1.png",
+        "/191125/Image2.png",
+        "/191125/Image3.png",
+        "/191125/Image4.png"
+      ]
+    },
+
+    {
+      "id": "event3",
+      "date": "10/12/25",
+      "title": "Séance du 10/12/2025 - Avancées sur les mécaniques de jeu",
+      "tasks": [
+        { "text": "Menu principal", "status": "termine" },
+        { "text": "Ennemis", "status": "termine" },
+        { "text": "Premières animations", "status": "termine" },
+        { "text": "Mécanique de l'air", "status": "termine" },
+        { "text": "Création des Préfabs", "status": "termine" },
+        { "text": "Carte", "status": "termine" },
+        { "text": "Changement de langue", "status": "enCours" },
+        { "text": "Menu des paramètres", "status": "enCours" }
+      ],
+      "images": [
+        "/101225/Image1.png",
+        "/101225/Image2.png",
+        "/101225/Image3.png",
+        "/101225/Image4.png"
+      ]
+    },
+
+    {
+      "id": "event4",
+      "date": "14/01/26",
+      "title": "Séance du 14/01/26 - Retravail sur la carte et les mécaniques",
+      "tasks": [
+        { "text": "Menu des paramètres", "status": "termine" },
+        { "text": "Revoir la carte du jeu", "status": "termine" },
+        { "text": "Changement de langue", "status": "enCours" },
+        { "text": "Site web de suivi de projet", "status": "enCours" },
+        { "text": "Double saut", "status": "enCours" },
+        { "text": "Changement de niveau", "status": "pasCommence" },
+        { "text": "Système de sauvegarde", "status": "pasCommence" }
+      ],
+      "images": [
+        "/140126/Image1.png",
+        "/140126/Image2.png",
+        "/140126/Image3.png",
+        "/140126/Image4.png"
+      ]
+    },
+
+    {
+      "id": "event5",
+      "date": "15/01/26",
+      "title": "Séance du 15/01/26",
+      "tasks": [
+        { "text": "Changement de niveau", "status": "termine" },
+        { "text": "Système de sauvegarde", "status": "enCours" },
+        { "text": "Double saut", "status": "enCours" },
+        { "text": "Site web de suivi de projet", "status": "enCours" }
+      ],
+      "description": "Description de l'événement 5.",
+      "images": [
+        "/140126/Image1.png",
+        "/140126/Image2.png",
+        "/140126/Image3.png"
+      ]
+    },
+
+    {
+      "id": "event6",
+      "date": "xx/xx/xxxx",
+      "title": "Sixième séance",
+      "tasks": [],
+      "description": "Description de l'événement 6.",
+      "images": [
+        "/140126/Image1.png",
+        "/140126/Image2.png",
+        "/140126/Image3.png"
+      ]
+    },
+
+    {
+      "id": "event7",
+      "date": "xx/xx/xxxx",
+      "title": "Septième séance",
+      "tasks": [],
+      "description": "Description de l'événement 7.",
+      "images": [
+        "/140126/Image1.png",
+        "/140126/Image2.png",
+        "/140126/Image3.png"
+      ]
+    },
+
+    {
+      "id": "event8",
+      "date": "xx/xx/xxxx",
+      "title": "Huitième séance",
+      "tasks": [],
+      "description": "Description de l'événement 8.",
+      "images": [
+        "/140126/Image1.png",
+        "/140126/Image2.png",
+        "/140126/Image3.png"
+      ]
+    },
+
+    {
+      "id": "event9",
+      "date": "xx/xx/xxxx",
+      "title": "Neuvième séance",
+      "tasks": [],
+      "description": "Description de l'événement 9.",
+      "images": [
+        "/140126/Image1.png",
+        "/140126/Image2.png",
+        "/140126/Image3.png"
+      ]
+    },
+
+    {
+      "id": "event10",
+      "date": "xx/xx/xxxx",
+      "title": "Dixième séance",
+      "tasks": [],
+      "description": "Description de l'événement 10.",
+      "images": [
+        "/140126/Image1.png",
+        "/140126/Image2.png",
+        "/140126/Image3.png"
+      ]
+    },
+
+    {
+      "id": "event11",
+      "date": "xx/xx/xxxx",
+      "title": "Onzième séance",
+      "tasks": [],
+      "description": "Description de l'événement 11.",
+      "images": [
+        "/140126/Image1.png",
+        "/140126/Image2.png",
+        "/140126/Image3.png"
+      ]
+    }
+  ]
+}
